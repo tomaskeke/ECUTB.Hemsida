@@ -1,0 +1,14 @@
+css består av:
+1. selectorer / selectors. en selektor är något som pekar på en tagg i vår html kod.
+h1 är en selector.
+för att få html dokumentet att läsa in css filen så behöver man lägga till 
+<link rel="stylesheet" type="text/css" href="style.css"/> i <head> taggen.
+
+2. styling-regler.
+Regler börjar med namnet på regeln, tex. color, sedan vill man ha värdet på regeln, t.ex. Red, eftersom regeln är color och värdet är röd.
+denna regeln gäller för _alla_ h1 taggar i html dokumentet. Man kan döpa specifika taggar med class, för att göra bara den taggen att följa reglerna.
+ID är ganska likt classer, men när man använder ID så måste dom vara unika. istället för . som man använder för classer så kallar man på ID genom ett "#"
+viktigt att samma ID bara skall användas en gång, till skillnad från klasser.
+3. block.
+block börjar med "{" och slutar med "}", innanför dessa brackets skriver du styling-regler (hur du vill att h1 skall se ut.)
+
